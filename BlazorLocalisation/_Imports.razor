@@ -1,4 +1,5 @@
 ﻿@using BlazorLocalisation
+@using BlazorLocalisation.Models
 @using BlazorLocalisation.Shared
 @using Microsoft.AspNetCore.Components.Forms
 @using Microsoft.AspNetCore.Components.Routing
@@ -8,4 +9,5 @@
 @using Microsoft.JSInterop
 @using System.Net.Http
 @using System.Net.Http.Json
-@inject IStringLocalizer<App> L
+
+@inherits ApplicationComponentBase
